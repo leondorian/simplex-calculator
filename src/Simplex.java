@@ -152,7 +152,7 @@ public class Simplex {
             xz[xz.length-1] = newtab[1][newtab[1].length-1];
 
             // output
-            System.out.println("pivot column: "+s +", pivot row: "+r+", pivot element: "+df.format(tab[r][s]));
+            System.out.println("\npivot column: "+s +", pivot row: "+(r-1)+", pivot element: "+df.format(tab[r][s]));
             System.out.println();
             System.out.println("iteration "+iteration +":");
             for(int i = 0; i < newtab.length; i++){
