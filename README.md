@@ -5,7 +5,7 @@
  The tool outputs the current tableau of each iteration.
 </p>
 
-### download an run the JAR with:
+### Download the JAR and run with:
 ````bash
 java -jar simplex-calculator.jar
 ````
