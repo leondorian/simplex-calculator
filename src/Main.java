@@ -9,7 +9,7 @@ public class Main {
         DecimalFormat df = new DecimalFormat(" 00.000;-00.000");
 
         //info
-        System.out.println("\nThis program solves linear programming problems with the primal simplex method.");
+        System.out.println("\nThis program solves linear problems with the primal simplex method.");
         System.out.println("The problem is given in the form of a standard linear program.");
         System.out.println("\nmax c1*x1 + c2*x2 + ... + cn*xn");
         System.out.println("st a11*x1 + a12*x2 + ... + a1n*xn <= b1");
